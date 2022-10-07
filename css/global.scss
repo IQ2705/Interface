@@ -1,0 +1,108 @@
+@font-face{
+    font-family: 'poppins';
+    src: url(../fonts/Poppins-Regular.woff2) format('woff2'), url(../fonts/Poppins-Regular.woff) format('woff'), 
+    url(../fonts/Poppins-Medium.woff2) format('woff2'), url(../fonts/Poppins-Medium.woff) format('woff'),
+    url(../fonts/Poppins-Semibold.woff2) format('woff2'), url(../fonts/Poppins-Semibold.woff) format('woff');
+}
+$blue: #004AAD;
+$black:#000000;
+$white: #FFFFFF;
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.container{
+    padding: 0 100px;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+p, h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0;
+    margin: 0;
+}
+a{
+    white-space: no-wrap;
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    object-fit: contain;
+}
+.link{
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: $black;
+    padding: 0px 10px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    &:hover{
+        color: $white;
+        background-color: $blue;
+    }
+}
+.btn{
+    font-weight: 600;
+    font-size: 25px;
+    color: $blue;
+    text-transform: capitalize;
+    box-shadow: 0 0 15px $blue;
+    border: 2px ridge $blue;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: $white;
+        background-color: $blue;
+        box-shadow: inset 0 0 15px $white;
+    }
+    &:active{
+        transform: scale(0.95);
+    }
+}
+.btns{
+    font-weight: 600;
+    font-size: 25px;
+    color: $blue;
+    text-transform: capitalize;
+    box-shadow: 0 0 5px $white;
+    border: 2px ridge $white;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    background-color: $white;
+    &:hover{
+        box-shadow: inset 0 0 15px $blue;
+        transform: scale(1.1);
+    }
+    &:active{
+        transform: scale(1.05);
+    }
+}
+.title{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 76px;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+.text{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+

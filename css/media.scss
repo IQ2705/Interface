@@ -1,0 +1,348 @@
+@media (max-width:1200px){
+    .container{
+        padding: 0 70px;
+    }
+    .link{
+        font-size: 25px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .header{
+        &__top{
+            padding: 0 20px 0 30px;
+            & nav{
+                gap: 5px;
+            }
+        }
+        &__content{
+            top: 80px;
+            padding: 140px 0 80px;
+            & .container{
+                width: 80%;
+            }
+            & h1{
+                font-size: 60px;
+                line-height: 80px;
+            }
+            & li{
+                font-size: 24px;
+            }
+        }
+        
+    }
+    .about{
+        & h1{
+            font-size: 45px;
+            line-height: 60px;
+            padding: 70px 80px 0;
+        }
+        & img{
+            height: 500px;
+        }
+    }
+    .program{
+        & h1{
+            font-size: 70px;
+            line-height: 100px;
+        }
+        &>p{
+            padding: 0 100px;
+            font-size: 35px;
+            line-height: 55px;
+            margin: 20px 60px;
+        }
+    }
+    
+    .review{
+        & .cards{
+            padding: 0 ;
+            & .uptitle{
+                font-size: 20px;
+            }
+            &__about{
+                gap: 15px;
+                & img{
+                    height: 70px;
+                    width: 70px;
+                }
+            }
+        }
+    }
+    .career{
+        &__cards{
+            gap: 20px;
+        }
+        &__card h5{
+            font-size: 20px;
+        }
+        &__card p{
+            font-size: 14px;
+        }
+    }
+    .teaching{
+        & .content{
+            &__inner{
+                padding: 20px 0 20px 70px;
+            }
+            & img{
+                height: 600px;
+            }
+        }
+    }
+    .footer{
+        padding: 70px;
+    }
+}
+@media (max-width:1000px){
+    .container{
+        padding: 0 60px;
+    }
+    .hamburger{
+        display: grid !important;
+    }
+    .header__top nav{
+        display: none;
+    }
+}
+@media (max-width:900px){
+    .container{
+        padding: 0 50px;
+    }
+    .title{
+        font-size: 40px;
+        line-height: 70px;
+        margin-top: 0px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .header{
+        &__content{
+            padding: 80px 0 70px;
+            & h1{
+                font-size: 50px;
+            }
+            & li{
+                font-size: 20px;
+            }
+        }
+    }
+    .about{
+        & h1{
+            font-size: 35px;
+            line-height: 50px;
+            padding: 50px 60px 0;
+        }
+        & img{
+            height: 350px;
+        }
+    }
+    .program{
+        & h1{
+            font-size: 55px;
+        }
+        &>p{
+            padding: 0 50px;
+            font-size: 24px;
+            line-height: 35px;
+        }
+        & .box{
+            height: 600px;
+            & img{
+                height: 250px;
+            }
+            & p{
+                margin: 0 auto 60px;
+                font-size: 22px;
+            }
+        }
+        
+    }
+    .review{
+        & .cards{
+            margin: 40px 0;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            &__item{
+                padding: 15px;
+                height: 350px;
+                width: 70%;
+            }
+            &__about{
+                justify-content: center;
+            }
+            .uptitle{
+                font-size: 30px;
+            }
+        }
+    }
+    .teaching{
+        padding: 40px 0;
+        & .text{
+            width: 75%;
+        }
+        & .content{
+            &__inner{
+                i{
+                    height: 40px;
+                    width: 40px;
+                }
+                gap: 15px;
+                & h3{
+                    width: 80%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .career{
+        padding: 40px 40px 30px;
+        &__cards{
+            grid-template-columns: 1fr 1fr;
+            gap: 0 135px;
+        }
+        &__card{
+            margin: 40px 0;
+            height: 300px;
+        }
+    }
+    .footer{
+        padding: 40px;
+        font-size: 14px;
+        & .left img{
+            height: 100px;
+            width: 200px;
+        }
+    }
+}
+@media (max-width:700px){
+    .container{
+        padding: 0 30px;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .header{
+        .hamburger{
+            height: 50px;
+            width: 50px;
+        }
+        &__top{
+            & img{
+                height: 80px;
+                width: 200px;
+            }
+        }
+        &__content{
+            & .container{
+                width: 100%;
+            }
+            & h1{
+                font-size: 40px;
+                line-height: 55px;
+            }
+            & li{
+                width: 80%;
+                font-size: 16px;
+            }
+        }
+    }
+    .about{
+        & h1{
+            font-size: 24px;
+            line-height: 30px;
+            padding: 20px 30px 0;
+        }
+        & img{
+            height: 250px;
+        }
+    }
+    .program{
+        & h1{
+            font-size: 40px;
+            line-height: 80px;
+        }
+        &>p{
+            padding: 0 20px;
+            font-size: 18px;
+            line-height: 25px;
+            margin: 10px 20px;
+        }
+        & .box p{
+            line-height: 25px;
+        }
+    }
+    .review{
+        .btn{
+            padding: 7px;
+            margin-top: 10px;
+        }
+        .title{
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .text{
+            font-size: 18px;
+            line-height: 20px;
+        }
+        & .cards{
+            &__item{
+                height: 400px;
+            }
+            & .uptitle{
+                font-size: 25px;
+            }
+        }
+    }
+    .teaching{
+        padding: 20px 0;
+        & .content{
+            display: grid;
+            &__inner{
+                width: 95%;
+            }
+            & img{
+                width: 95%;
+            }
+        }
+    }
+    .career{
+        &__cards{
+            gap:0 50px;
+        }
+        &__card{
+            margin: 15px 0px;
+            & h5{
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+        & .btn{
+            padding: 10px 15px;
+        }
+    }
+    .footer{
+        display: grid;
+        text-align: center;
+        grid-template-areas: 'left left'
+        'one two';
+        .left{
+            width: 75%;
+            margin: auto;
+            display: grid;
+            justify-items: center;
+        }
+    }
+}
+@media (max-width:700px){
+}
+@media (max-width:700px){
+}
+@media (max-width:700px){
+}
